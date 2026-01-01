@@ -43,12 +43,8 @@ jobs:
       
       # 部署到GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        id: deployment
+        uses: actions/deploy-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           # 部署目录
-          publish_dir: ./dist
-          # 部署分支
-          publish_branch: gh-pages
-          # 清除旧文件
-          force_orphan: true
+          folder: ./dist
