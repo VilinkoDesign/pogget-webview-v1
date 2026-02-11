@@ -11,9 +11,9 @@ A secure web preview framework provided for Vilinko Studio's online services, en
 
 - DeveloperAppBuild
   - [appver]1.0.0
-  - [webver]dev
+  - [webver]1
   - [time]20260211
-  - [git]none
+  - [git]Pre-release
 
 - UserBuild
   - [ver]1.0.0
